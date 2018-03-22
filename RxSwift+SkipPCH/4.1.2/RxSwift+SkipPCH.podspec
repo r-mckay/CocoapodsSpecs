@@ -27,7 +27,7 @@ gitDiff().grep("bug").less          // sequences of swift objects
 
   s.requires_arc          = true
 
-  #s.prefix_header_file    = false
+  s.prefix_header_file    = false
   #s.skip_pch = true
 
   s.ios.deployment_target = '8.0'
