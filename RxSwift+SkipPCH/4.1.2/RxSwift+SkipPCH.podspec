@@ -25,7 +25,7 @@ gitDiff().grep("bug").less          // sequences of swift objects
   s.author           = { "Krunoslav Zaher" => "krunoslav.zaher@gmail.com" }
   s.source           = { :git => "https://github.com/r-mckay/RxSwift.git", :branch => "imp/skipPch" }
 
-  s.requires_arc          = true
+ # s.requires_arc          = true
 
   s.prefix_header_file    = false
 
